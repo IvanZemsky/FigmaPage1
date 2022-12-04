@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Performance</title>
+    <link rel="stylesheet/less" type="text/css" href="style.less">
+    <script src="https://cdn.jsdelivr.net/npm/less"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="header__content page-wrapper">
+            <a class="page-logo" href="#!">
+                <img src="img/logo.svg" alt="Page name">
+                <span class="page-logo__text">
+                    Page Name
+                </span>
+            </a>
+            <button class="header__profile" type="button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="49px" height="49px" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"><path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10s10-4.477 10-10S17.523 2 12 2Z"/><path d="M4.271 18.346S6.5 15.5 12 15.5s7.73 2.846 7.73 2.846M12 12a3 3 0 1 0 0-6a3 3 0 0 0 0 6Z"/></g>
+                </svg>
+            </button>
+        </div>
+   </header>
+   <main class="main">
+        <section class="performance">
+            <div class="performance__content page-wrapper">
+                <h1 class="performance__title">
+                    <span>Просмотр успеваемости</span>
+                    <hr>
+                </h1>
+                <div class="performance__desc">
+
+                    <div class="performance__desc-left">
+                        <div class="performance__desc-photo">
+                            <img src="/img/student.svg" alt="Student photo">
+                        </div>
+                        <div class="performance__desc-left-info">
+                            <p>Копытин И. Д.</p>
+                            <p>2 курс</p>
+                            <p>Группа: ИСП-215</p>
+                            <p>Специальность: 09.02.07</p>
+                        </div>
+                    </div>
+
+                    <div class="performance__desc-right">
+                        <p>Факультет среднего профессионального образования</p>
+                        <p>“Информационные системы и программирование”</p>
+                        <p>(специальность топ-50)</p>
+                    </div>
+                </div>
+                <div class="performance__control">
+                    <div class="performance__control-button">
+                        <button class="performance__control-select" type="button">
+                            Курс
+                            <img src="img/arrow.svg" alt="selection arrow">
+                        </button>
+                        <p class="performance__control-value performance__control-course">
+                            2
+                        </p>
+                    </div>
+
+                    <div class="performance__control-button">
+                        <button class="performance__control-select" type="button">
+                            Семестр
+                            <img src="img/arrow.svg" alt="selection arrow">
+                        </button>
+                        <p class="performance__control-value performance__control-term">
+                            Осень
+                        </p>
+                    </div>
+
+                    <h2 class="performance__control-title">
+                        Таблица успеваемости студента
+                    </h2>
+                </div>
+                <table class="performance__table">
+                    <thead>
+                        <tr>
+                            <th>Наименование дисциплины</th>
+                            <th>Тип ведомости</th>
+                            <th>Оценка</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Архитектура аппаратных средств</td>
+                            <td>Зачет</td>
+                            <td>Зачтено</td>
+                        </tr>
+                        <tr>
+                            <td>Архитектура аппаратных средств</td>
+                            <td>Зачет</td>
+                            <td>Зачтено</td>
+                        </tr>
+                        <tr>
+                            <td>Архитектура аппаратных средств</td>
+                            <td>Зачет</td>
+                            <td>Зачтено</td>
+                        </tr>
+                        <tr>
+                            <td>Архитектура аппаратных средств</td>
+                            <td>Зачет</td>
+                            <td>Зачтено</td>
+                        </tr>
+                        <tr>
+                            <td>Архитектура аппаратных средств</td>
+                            <td>Зачет</td>
+                            <td>Зачтено</td>
+                        </tr>
+                        <tr>
+                            <td>Архитектура аппаратных средств</td>
+                            <td>Зачет</td>
+                            <td>Зачтено</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+   </main>
+   <footer class="footer">
+        <div class="footer__content page-wrapper">
+            <a class="page-logo" href="#!">
+                <img src="img/logo.svg" alt="Page name">
+                <span class="page-logo__text">
+                    Page Name
+                </span>
+            </a>
+
+            <p class="footer__text">
+                Рекомендовано минобрнауки РФ
+            </p>
+        </div>
+   </footer>
+</body>
+</html>
